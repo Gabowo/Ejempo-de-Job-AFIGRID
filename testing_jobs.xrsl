@@ -1,0 +1,14 @@
+&(executable="testing_jobs.sh")
+
+(jobName="Testeo de Jobs")
+
+(stdout="testing_jobs.txt")
+(stderr="testing_jobs.err")
+
+(inputfiles=("python_test.py" "python_test.py"))
+(inputfiles=("test_file.txt" "test_file.txt"))
+
+(outputfiles=("new_test.txt" ""))
+
+(memory>="500")
+(queue="LOW")
